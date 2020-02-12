@@ -100,6 +100,17 @@ html {
     font-size: 1.6em;
 }
 
+.advert-msg {
+    margin-top: -145px;
+}
+
+.advert-msg h3 {
+    font-family: var(--t-font);
+    font-size: 24px;
+    line-height: 1.3;
+    text-shadow: 2px 2px 10px var(--w-color);
+}
+
 #login {
     width: 100%;
     margin-top: 20px;
@@ -163,6 +174,23 @@ html {
 
 #login .login-btn:hover {
     background: var(--s-color);
+}
+
+.promo-advert {
+    margin-top: 50px;
+    border: 1px solid var(--w-color);
+    border-radius: 5px;
+    padding: 10px;
+    background: var(--s-color);
+    color: var(--w-color);
+    text-align: center;
+}
+
+.promo-advert p {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
 }
 
 /* Main Page */
@@ -487,6 +515,17 @@ footer p {
     text-align: justify;
 }
 
+.thankYou > p {
+    font-size: 28px !important;
+    margin-bottom: 30px !important;
+    font-family: var(--t-font);
+    line-height: 1.3 !important;
+}
+
+.thankYou > p.note {
+    color: var(--s-color);
+} 
+
 .p-toast {
     border: 1px solid var(--p-color);
     -webkit-box-shadow: 0px 0px 4px var(--p-color);
@@ -757,6 +796,18 @@ p.time {
     .text-lg {
         display: block;
     }
+    
+    .advert-msg {
+        margin-top: 50px;
+    }
+
+    .advert-msg h3 {
+        font-family: var(--t-font);
+        font-size: 35px;
+        line-height: 1.3;
+        text-shadow: 2px 2px 10px var(--w-color);
+    }
+
 
     #login {
         margin-top: 150px;
@@ -867,6 +918,11 @@ p.time {
 }
 
 @media (min-width: 1024px) {
+    
+    .advert-msg {
+        margin-top: 60px;
+    }
+    
     .heading h2 {
         font-size: 34px;
     }

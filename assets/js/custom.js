@@ -1,16 +1,16 @@
 const customers = [
 	"Chioma Chibuzo",
 	"Angela Chukwu",
-	"Moses Silas",
-	"John Diye",
-	"Henry Egaga",
-	"Theophilus Japhet",
-	"Nathaniel Samuel",
-	"Mary King",
+	"Hannah Silas",
+	"Jumoke Adekunle",
+	"Lilian Maigemu",
+	"Fatima Dankano",
+	"Hadiza Abdulrahman",
+	"Mary Kingsley",
 	"Sarah Jones",
 	"Gloria Paul",
 	"Jenifer Sitya",
-	"Oyelede Olaruwanju"
+	"Bolanle Olaruwanju"
 ];
 
 const purchaseTime = [
